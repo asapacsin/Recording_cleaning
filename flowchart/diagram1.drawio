@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2024-05-27T08:47:13.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="_qJpcBN0QZt7bFY5H-eP" version="24.4.8" type="device">
+  <diagram name="第 1 页" id="H_yAUH-fCn5t_WPO1lJR">
+    <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UfwdBIcSexVZuBY1e02d-5" value="Manually input" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UfwdBIcSexVZuBY1e02d-1" target="UfwdBIcSexVZuBY1e02d-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-6" value="Default" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UfwdBIcSexVZuBY1e02d-1" target="UfwdBIcSexVZuBY1e02d-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-1" value="Select input option" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="20" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-2" value="Get date by local configuration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UfwdBIcSexVZuBY1e02d-3" target="UfwdBIcSexVZuBY1e02d-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-3" value="Input date manually" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UfwdBIcSexVZuBY1e02d-7" target="UfwdBIcSexVZuBY1e02d-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-7" value="Submit the current date&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UfwdBIcSexVZuBY1e02d-2" target="UfwdBIcSexVZuBY1e02d-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="297" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UfwdBIcSexVZuBY1e02d-10" target="UfwdBIcSexVZuBY1e02d-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-10" value="Extract the year and month of the past and current month as sampling date&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="370" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UfwdBIcSexVZuBY1e02d-12" target="UfwdBIcSexVZuBY1e02d-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-12" value="Search for the file in current path" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-16" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UfwdBIcSexVZuBY1e02d-14" target="UfwdBIcSexVZuBY1e02d-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="655" />
+              <mxPoint x="600" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-17" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UfwdBIcSexVZuBY1e02d-14" target="UfwdBIcSexVZuBY1e02d-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-14" value="Judge file suit sample date" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="610" width="106" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UfwdBIcSexVZuBY1e02d-18" target="UfwdBIcSexVZuBY1e02d-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfwdBIcSexVZuBY1e02d-18" value="Delete the file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
